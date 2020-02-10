@@ -631,35 +631,39 @@ textarea:focus {
 
 }
 .folder-gf {
-      background: url(/assets/imagens/work1/folder.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/folder-sm.gif) no-repeat 50% 50%;
       background-size: cover;
 }
 .mercury {
-      background: url(/assets/imagens/work1/mercury.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/mercury-sm.gif) no-repeat 50% 50%;
       background-size: 365px;
 }
 .venus {
-      background: url(/assets/imagens/work1/venus.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/venus-sm.gif) no-repeat 50% 50%;
       background-size:  365px;
 }
 .earth {
-      background: url(/assets/imagens/work1/earth.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/earth-sm.gif) no-repeat 50% 50%;
       background-size:  365px;
 }
 .mars {
-      background: url(/assets/imagens/work1/mars.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/mars-sm.gif) no-repeat 50% 50%;
       background-size:  365px;
 }
 .jupiter {
-      background: url(/assets/imagens/work1/jupiter.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/jupiter-sm.gif) no-repeat 50% 50%;
       background-size:  365px;
 }
 .saturn {
-      background: url(/assets/imagens/work1/saturn.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/saturn-sm.gif) no-repeat 50% 50%;
+      background-size:  365px;
+}
+.uranus {
+      background: url(/assets/imagens/work1/uranus-sm.gif) no-repeat 50% 50%;
       background-size:  365px;
 }
 .neptune {
-      background: url(/assets/imagens/work1/neptune.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/neptune-sm.gif) no-repeat 50% 50%;
       background-size:  365px;
 }
 .neptune::after {
@@ -674,10 +678,7 @@ textarea:focus {
       right: 0;
       bottom: 0;
 }
-.uranus {
-      background: url(/assets/imagens/work1/uranus.gif) no-repeat 50% 50%;
-      background-size:  365px;
-}
+
 
 .prev, .next p {
       color: grey;
@@ -693,5 +694,13 @@ textarea:focus {
 @media(max-width: 768px) {
       .neptune::after {
             display: none;
+      }
+      .project-nav {
+            flex-basis: content;
+            display: inline;
+      }
+      .project-nav .col-lg-4 {
+            height: 0px;
+            weight: 25px;
       }
 }
