@@ -53,7 +53,7 @@ html, body {
                   width: 0;
             }
             to {
-                  width: 17em;
+                  width: 10em;
             }
       }
 }
@@ -323,12 +323,12 @@ h6 {
 }
 
 .project2 {
-      background: url(/assets/imagens/dark2.jpg) no-repeat 50% 50%;
-      background-size: cover;
+      background: url(/assets/imagens/Quiro.jpg) no-repeat 50% 30%;
+      background-size: 770px;
 }
 
 .project2::after {
-      content: "stunning people.";
+      content: "to your busisness.";
       font-family: "Roboto Mono";
       font-size: 40px;
       position: relative;
@@ -346,7 +346,7 @@ h6 {
 }
 
 .project3::after {
-      content: "crazy gifs.";
+      content: "stunning landscapes.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
@@ -364,7 +364,7 @@ h6 {
 }
 
 .project4::after {
-      content: "lighted up landscapes.";
+      content: "for your life.";
       font-family: "Roboto Mono";
       font-size: 40px;
       position: relative;
@@ -386,9 +386,33 @@ h6 {
             background-size: cover;
             left: 0%;
       }
+      .project1::after {
+            content: "COOL DESIGNS.";
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 52px;
+            font-weight: bolder;
+            color: rgba(205, 4, 255, 0.212);
+            display: block !important;
+            top: 74%;
+            left: -10%;
+            right: 0;
+            bottom: 0;
+      }
       .project2 {
-            background: url(/assets/imagens/dark2.jpg);
+            background: url(/assets/imagens/quiro.jpg);
             background-size: cover;
+      }
+      .project2::after {
+            content: "TO YOUR BUSISNESS";
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 50px;
+            font-weight: bolder;
+            color: rgba(7, 182, 144, 0.425);
+            display: block !important;
+            top: 55%;
+            left: 15%;
+            right: 0;
+            bottom: 0;
       }
       .project3 {
             background: url(/assets/imagens/dark3.jpg);
@@ -635,39 +659,39 @@ textarea:focus {
       background-size: cover;
 }
 .mercury {
-      background: url(/assets/imagens/work1/mercury-sm.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/Mercury.jpg) no-repeat 50% 50%;
       background-size: 365px;
 }
 .venus {
-      background: url(/assets/imagens/work1/venus-sm.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/Venus.jpg) no-repeat 50% 50%;
       background-size:  365px;
 }
 .earth {
-      background: url(/assets/imagens/work1/earth-sm.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/Earth.jpg) no-repeat 50% 50%;
       background-size:  365px;
 }
 .mars {
-      background: url(/assets/imagens/work1/mars-sm.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/Mars.jpg) no-repeat 50% 50%;
       background-size:  365px;
 }
 .jupiter {
-      background: url(/assets/imagens/work1/jupiter-sm.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/Jupiter.jpg) no-repeat 50% 50%;
       background-size:  365px;
 }
 .saturn {
-      background: url(/assets/imagens/work1/saturn-sm.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/Saturn.jpg) no-repeat 50% 50%;
       background-size:  365px;
 }
 .uranus {
-      background: url(/assets/imagens/work1/uranus-sm.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/Uranus.jpg) no-repeat 50% 50%;
       background-size:  365px;
 }
 .neptune {
-      background: url(/assets/imagens/work1/neptune-sm.gif) no-repeat 50% 50%;
+      background: url(/assets/imagens/work1/Neptune.jpg) no-repeat 50% 50%;
       background-size:  365px;
 }
 .neptune::after {
-      content: "Check out the original artwork in behance";
+      content: "Check out another versions in behance/instagram";
       font-family: "Roboto Mono";
       font-size: 40px;
       position: relative;
@@ -703,4 +727,77 @@ textarea:focus {
             height: 0px;
             weight: 25px;
       }
+}
+/*--------------- Busisness Project Page --------------- */
+
+.busisness {
+      background: url(/assets/imagens/work2/full/logo06.jpg) no-repeat;
+      background-size: cover;
+
+}
+.quiro {
+      background: url(/assets/imagens/work2/pic1.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+.brainstorm-quiro {
+      background: url(/assets/imagens/work2/pic2.jpg) no-repeat 50% 50%;
+      background-size: 750px;
+}
+.project-busisness {
+      height: 1000px;
+}
+.quiro1 {
+      background: url(/assets/imagens/work2/Home.png) no-repeat 50% 50%;
+      background-size: cover;
+}
+.quiro2 {
+      background: url(/assets/imagens/work2/Sobre1.png) no-repeat 50% 0%;
+      background-size: cover;
+}
+.quiro3 {
+      background: url(/assets/imagens/work2/Mockup1.png) no-repeat 50% 50%;
+      background-size:  365px;
+}
+.quiro4 {
+      background: url(/assets/imagens/work2/app\ mockup.jpg) no-repeat 50% 50%;
+      background-size:  365px;
+}
+.quiro5 {
+      background: url(/assets/imagens/work2/Mockup2.png) no-repeat 50% 50%;
+      background-size:  365px;
+}
+.quiro6 {
+      background: url(/assets/imagens/work2/iphone\ mockup.jpg) no-repeat 50% 50%;
+      background-size:  550px;
+}
+.quiro7 {
+      background: url(/assets/imagens/work2/iphone\ mockup2.jpg) no-repeat 50% 50%;
+      background-size:  550px;
+}
+.quiro8 {
+      background: url(/assets/imagens/work2/cartaomockup.jpg) no-repeat 50% 50%;
+      background-size:  480px;
+}
+.quiro9 {
+      background: url(/assets/imagens/work2/cartaomockup2.jpg) no-repeat 50% 50%;
+      background-size:  430px;
+}
+ /*falta terminar o resto das imagens*/
+@media(max-width: 768px) {
+      .busisness {
+            background: url(/assets/imagens/work2/full/logo06.jpg) no-repeat 50% 50%;
+            background-size: 370px;
+      
+      }
+      .quiro {
+            background: url(/assets/imagens/work2/pic1.jpg) no-repeat 50% 50%;
+            background-size: 270px;
+      }
+      .brainstorm-quiro {
+            display: none;
+      }
+
+
+
+
 }
