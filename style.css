@@ -324,7 +324,7 @@ h6 {
 }
 
 .project2 {
-      background: url(/assets/imagens/Quiro.jpg) no-repeat 50% 30%;
+      background: url(/assets/imagens/work2/Quiro.jpg) no-repeat 50% 30%;
       background-size: 770px;
 }
 
@@ -402,7 +402,7 @@ h6 {
             bottom: 0;
       }
       .project2 {
-            background: url(/assets/imagens/Quiro.jpg);
+            background: url(/assets/imagens/work2/Quiro.jpg);
             background-size: cover;
             left: 0%;
       }
