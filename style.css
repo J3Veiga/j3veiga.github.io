@@ -353,7 +353,7 @@ h6 {
       font-size: 40px;
       font-weight: bolder;
       position: relative;
-      color: rgba(255, 0, 0, 0.726);;
+      color: rgba(255, 0, 0, 0.726);
       display: block;
       top: 80%;
       left: -38%;
@@ -404,6 +404,7 @@ h6 {
       .project2 {
             background: url(/assets/imagens/quiro.jpg);
             background-size: cover;
+            left: 0%;
       }
       .project2::after {
             content: "FOR YOUR BUSISNESS.";
