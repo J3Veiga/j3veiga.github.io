@@ -308,7 +308,7 @@ h6 {
 }
 
 .project1 {
-      background: url(/assets/imagens/work1/Folder\ Inside1.jpg) no-repeat 50% 20%;
+      background: url(/assets/imagens/work1/FolderInside1.jpg) no-repeat 50% 20%;
       background-size: 450px;
       left: 550px;
 }
@@ -390,7 +390,7 @@ h6 {
             margin: 14px auto;
       }
       .project1 {
-            background: url(/assets/imagens/work1/Folder\ Inside1.jpg) no-repeat;
+            background: url(/assets/imagens/work1/FolderInside1.jpg) no-repeat;
             background-size: cover;
             left: 0%;
       }
