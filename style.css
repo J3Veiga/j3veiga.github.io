@@ -372,7 +372,7 @@ h6 {
       font-size: 40px;
       font-weight: bolder;
       position: relative;
-      color: rgba(255, 0, 221, 0.753);
+      color: rgba(255, 135, 87, 0.712);
       display: block;
       top: 25%;
       left: 90%;
@@ -436,8 +436,21 @@ h6 {
             bottom: 0;
       }
       .project4 {
-            background: url(/assets/imagens/dark4.jpg);
+            background: url(/assets/imagens/work4/darkblack1.jpg);
             background-size: cover;
+      }
+      
+      .project4::after {
+            content: "FOR YOUR LIFE.";
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 48px;
+            font-weight: bolder;
+            color: rgba(255, 135, 87, 0.712);
+            display: block !important;
+            top: 25%;
+            left: 35%;
+            right: 0;
+            bottom: 0;
       }
       
 
