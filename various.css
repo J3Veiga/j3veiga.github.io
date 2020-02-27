@@ -93,7 +93,7 @@
     width: 5vw;
     height: 5vw;
     border-radius: 50%;
-    z-index: 2;
+    z-index: 0;
   }
   .frame .social a {
     display: contents;
@@ -127,7 +127,11 @@
         overflow: hidden;
         position: relative;
       }
+      .frame .social {
+        z-index: 1;
+      }
   }
+  
 
 /*------Card Party-------*/
 
@@ -135,7 +139,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 .cards {
-    width: 820px;
+    width: 650px;
     height: 550px;
     display: flex;
     display: -webkit-flex;
@@ -179,6 +183,7 @@
     height: 235px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    opacity: 0.2;
   
 }
 
@@ -192,7 +197,7 @@
 }
 
 .card__img--hover {
-  transition: 0.2s all ease-out;
+    transition: 0.2s all ease-out;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -241,6 +246,7 @@
 }
 
 .card__title {
+    font-size: 20px;
     margin-top: 5px;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -265,7 +271,7 @@
 
 .card:hover .card__img--hover {
     height: 100%;
-    opacity: 0.9;
+
 }
 
 .card:hover .card__info {
@@ -276,59 +282,83 @@
 .card:hover .card__info-hover {
     opacity: 1;
 }
-.profile-card__button {
+.card__button {
+    position: relative;
     background: none;
     border: none;
     font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 19px;
     margin: 15px 35px;
     padding: 15px 40px;
-    min-width: 201px;
+    min-width: 180px;
     border-radius: 50px;
     min-height: 55px;
+    top: 50px;
+    left: -65px;
     color: #fff;
     cursor: pointer;
     backface-visibility: hidden;
     transition: all .3s;
   }
-.profile-card__button.button--orange {
+.card__button.button--ticket {
     background: linear-gradient(45deg, #d5135a, #f05924);
     box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.35);
   }
-  .profile-card__button.button--orange:hover {
+  .card__button.button--ticket:hover {
     box-shadow: 0px 7px 30px rgba(223, 45, 70, 0.75);
   }
 
   @media screen and (max-width: 768px) {
-    .profile-card__button {
+    .card__button {
       min-width: 170px;
       margin: 15px 25px;
     }
   }
   @media screen and (max-width: 576px) {
-    .profile-card__button {
+    .card__button {
       min-width: inherit;
       margin: 0;
       margin-bottom: 16px;
       width: 100%;
       max-width: 300px;
     }
-    .profile-card__button:last-child {
+    .card__button:last-child {
       margin-bottom: 0;
     }
   }
-  .profile-card__button:focus {
+  .card__button:focus {
     outline: none !important;
   }
   @media screen and (min-width: 768px) {
-    .profile-card__button:hover {
+    .card__button:hover {
       transform: translateY(-5px);
     }
   }
-  .profile-card__button:first-child {
+  .card__button:first-child {
     margin-left: 0;
   }
-  .profile-card__button:last-child {
+  .card__button:last-child {
     margin-right: 0;
   }
+
+  @media(max-width: 768px) {
+
+  .card {
+    top: -50px;
+    left: 20px;
+    width: 300px;
+  }
+  .cards{
+    width: 350px;
+    height: auto;
+  }
+  .card__title {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+  .card__button {
+    left: 5px;
+  }
+}

@@ -362,7 +362,7 @@ h6 {
 }
 
 .project4 {
-      background: url(/assets/imagens/dark4.jpg) no-repeat 50% 50%;
+      background: url(/assets/imagens/work4/darkblack1.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
@@ -370,10 +370,11 @@ h6 {
       content: "for your life.";
       font-family: "Roboto Mono";
       font-size: 40px;
+      font-weight: bolder;
       position: relative;
-      color: #fff;
+      color: rgba(255, 0, 221, 0.753);
       display: block;
-      top: 10%;
+      top: 25%;
       left: 90%;
       right: 0;
       bottom: 0;
