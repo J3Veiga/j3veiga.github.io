@@ -38,6 +38,8 @@ html, body {
       blinkTextCussor 500ms steps(40) infinite normal;
 }
 
+
+
 @keyframes typewriter {
       from {
             width: 0;
@@ -121,6 +123,7 @@ nav #menu li a:hover {
       text-decoration: none;
 }
 
+
 #toggle {
       position: absolute;
       right: 30px;
@@ -197,6 +200,7 @@ nav #menu li a:hover {
 }
 
 @media(max-width: 768px) {
+
       #toggle {
             visibility: visible;
             opacity: 1;
@@ -386,7 +390,7 @@ h6 {
             margin: 14px auto;
       }
       .project1 {
-            background: url(/assets/imagens/work1/Folder.jpg);
+            background: url(/assets/imagens/work1/Folder.jpg) no-repeat;
             background-size: cover;
             left: 0%;
       }
@@ -403,7 +407,7 @@ h6 {
             bottom: 0;
       }
       .project2 {
-            background: url(/assets/imagens/work2/Quiro.jpg);
+            background: url(/assets/imagens/work2/Quiro.jpg) no-repeat;
             background-size: cover;
             left: 0%;
       }
@@ -415,13 +419,14 @@ h6 {
             color: rgba(7, 182, 144, 0.425);
             display: block !important;
             top: 55%;
-            left: 15%;
+            left: 10%;
             right: 0;
             bottom: 0;
       }
       .project3 {
-            background: url(/assets/imagens/work3/redlight1.jpg);
+            background: url(/assets/imagens/work3/redlight1.jpg) no-repeat;
             background-size: cover;
+            left: 0%;
       }
       .project3::after {
             content: "STUNNING LANDSCAPES.";
@@ -436,8 +441,9 @@ h6 {
             bottom: 0;
       }
       .project4 {
-            background: url(/assets/imagens/work4/darkblack1.jpg);
+            background: url(/assets/imagens/work4/darkblack1.jpg) no-repeat;
             background-size: cover;
+            left: 0%;
       }
       
       .project4::after {
@@ -445,12 +451,12 @@ h6 {
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 48px;
             font-weight: bolder;
-            color: rgba(255, 135, 87, 0.712);
+            color: rgba(255, 135, 87, 0.616);
             display: block !important;
             top: 25%;
-            left: 35%;
-            right: 0;
-            bottom: 0;
+            left: 0%;
+            margin-left: 235px;
+
       }
       
 
