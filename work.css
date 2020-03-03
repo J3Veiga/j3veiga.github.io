@@ -29,7 +29,9 @@
     padding-left: 200px;
     
 }
-/*----------Using-------*/
+
+/*----------Branding-------*/
+
 .branding {
     width: 600px;
     height: 400px;
@@ -56,27 +58,36 @@
 .letterbold {
     color: var(--main-purple) !important;
 }
-/*----second block---*/
+
+/*----Desktop---*/
+
 .desktop {
-    width: 350px;
-    height: 250px;
-    left: 850px;
-    top: -250px;
-    margin-right: 0px;
+    width: 550px;
+    height: 350px;
+    right: 390px;
+    top: -60px;
+    margin-right: 0;
     position: relative;
     display: block;
 }
-.rec-large2 {
+.rec-large {
     background: linear-gradient(45deg, transparent 25%, transparent 25%, #00FA9A);
     height: 150px;
     width: 620px;
-    position: relative;
-    top: -45px;
-    left: 600px;
+    position: absolute;
+    top: -26px;
+    left: 293px;
     z-index: -1;
 }
 .letterbold2 {
     color: var(--main-green) !important;
+}
+.letter-left {
+    position: relative;
+    display: inline;
+    left: 650px;
+    top: 88px;
+
 }
 
 @media(max-width: 768px) {
@@ -120,7 +131,7 @@
 }
 /*
  * ─── CONTENT ────────────────────────────────────────────────────────────────────
- */
+ *
 .landing {
     margin-top: 150px;
     display: flex;
@@ -199,7 +210,7 @@ left p {
     -webkit-box-shadow: 0px 5px 20px 0px rgba(75,79,124,0.1);
     -moz-box-shadow: 0px 5px 20px 0px rgba(75,79,124,0.1);
     box-shadow: 0px 5px 20px 0px rgba(75,79,124,0.1);
-}*/
+}*
 .img {
     width: 340px;
     height: 485px;
@@ -239,15 +250,7 @@ left p {
     color: white;
     font-size: 17px;
 }
-.rec-large {
-    background: linear-gradient(45deg, transparent 25%, transparent 25%, #00FA9A);
-    height: 150px;
-    width: 620px;
-    position: absolute;
-    top: -45px;
-    left: -80px;
-    z-index: -1;
-}
+
 .rec-large2 {
     background: linear-gradient(45deg, transparent 25%, transparent 25%, #00FA9A);
     height: 150px;
@@ -319,7 +322,7 @@ left p {
 }
 /*
  ─── BACKGROUND LINES ───────────────────────────────────────────────────────────
- */
+ *
 .lines {
     display: block;
     width: 1px;
@@ -359,7 +362,7 @@ left p {
 
 /*
  * ─── FOOTER ─────────────────────────────────────────────────────────────────────
- */
+ *
 footer {
     position: fixed;
     bottom: 50px;
@@ -442,12 +445,6 @@ and (-webkit-min-device-pixel-ratio : 2) {
     position :relative;
     left: 85%;
 }
-.rec-large {
-    height: 275px;
-    width: 700px;
-    top: -45px;
-    left: -200px;
-}
 .line {
     height: 5px;
     width: 150px;
@@ -475,13 +472,6 @@ and (-webkit-min-device-pixel-ratio : 2) {
 .skill-upper {
     top: 75px;
     left: 60px;
-}
-.rec-first {
-    height: 325px;
-    width: 725px;
-    top: -170px;
-    right: 0px;
-    display: block;
 }
 
 .arrow2{
