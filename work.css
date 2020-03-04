@@ -5,7 +5,8 @@
     --main-black: #0f0f0f;
     --main-gray: #8a8ca5;
     --main-purple: rgba(196, 4, 255, 0.514);
-    --main-green: #00FA9A;
+    --main-green: rgba(0, 250, 154, 0.678);
+    --main-red: rgba(255, 0, 0, 0.664);
 }
 
 .wrapper-content {
@@ -28,6 +29,19 @@
 .l {
     padding-left: 200px;
     
+}
+/* ------- Motion --------*/
+.delay-1 {
+    animation-delay: 0.1s;
+}
+.delay-2 {
+    animation-delay: 0.3s;
+}
+.delay-3 {
+    animation-delay: 0.5s;
+}
+.delay-4 {
+    animation-delay: 0.7s;
 }
 
 /*----------Branding-------*/
@@ -70,7 +84,7 @@
     position: relative;
     display: block;
 }
-.rec-large {
+.rec-second {
     background: linear-gradient(45deg, transparent 25%, transparent 25%, #00FA9A);
     height: 150px;
     width: 620px;
@@ -87,8 +101,40 @@
     display: inline;
     left: 650px;
     top: 88px;
+}
+/*----Mobile---*/
+
+.mobile {
+    display: block;
+    position: relative;
+    top: -30%;
+    left: 255px;
+    width: 385px;
+    height: 565px;
+    z-index: -1;
 
 }
+.rec-third {
+    background: linear-gradient(45deg, transparent 25%, rgb(250, 0, 0), rgb(250, 0, 0));
+    height: 145px;
+    width: 780px;
+    position: absolute;
+    top: 0px;
+    right: 130px;
+    z-index: -1 !important;
+    display: block;
+}
+.letterbold3 {
+    color: var(--main-red) !important;
+}
+.letter-right {
+    position: relative;
+    display: inline;
+    left: 2px;
+    top: 109px;
+}
+
+
 
 @media(max-width: 768px) {
     .space {
@@ -120,7 +166,7 @@
 
 /*
  * ─── NAV ────────────────────────────────────────────────────────────────────────
- */
+ 
 
 .rec {
     background-color: var(--main-green);
@@ -129,7 +175,7 @@
     height: 14px;
     margin-right: 3px;
 }
-/*
+
  * ─── CONTENT ────────────────────────────────────────────────────────────────────
  *
 .landing {
@@ -384,7 +430,7 @@ footer > p, .social > a {
 
 /*
  * ─── MOTION ─────────────────────────────────────────────────────────────────────
- */
+ *
 .delay-1 {
     animation-delay: 0.1s;
 }
@@ -404,8 +450,8 @@ and (min-device-width : 320px)
 and (max-device-width : 480px)
 and (orientation : portrait)
 and (-webkit-min-device-pixel-ratio : 2) {
-    
-.wrapper-content {
+    */
+/*.wrapper-content {
     width: 50%;
     height: 0%;
     margin: 0 auto;
@@ -435,7 +481,7 @@ and (-webkit-min-device-pixel-ratio : 2) {
 .delay-block {
     animation-delay: 1.4s;
 }
-/*Graphic and Visual Designer*/
+Graphic and Visual Designer
 .landing {
     margin-top: 250px;
     width: 80%;
@@ -459,7 +505,7 @@ and (-webkit-min-device-pixel-ratio : 2) {
     right: -145px;
     top: -45px;
 }
-/*Branding Creation*/
+Branding Creation
 
 .right {
     left: -600px;
@@ -477,7 +523,7 @@ and (-webkit-min-device-pixel-ratio : 2) {
 .arrow2{
     display: none;
 }
-/*UI/UX Design Mobile*/
+UI/UX Design Mobile
 .rec-large2 {
     background: linear-gradient(45deg, #00FA9A 25%, transparent 90%, transparent);
     height: 325px;
@@ -498,7 +544,7 @@ and (-webkit-min-device-pixel-ratio : 2) {
     margin-right: 65px;
     margin-bottom: 0px;  
 }
-/*UI/UX Design Desktop*/
+UI/UX Design Desktop
 .img2 {
     width: 750px;
     height: 450px;
@@ -526,7 +572,7 @@ and (-webkit-min-device-pixel-ratio : 2) {
     top: -28px;
     left: -420px;
 }
-/*Let´s Start a Project*/
+Let´s Start a Project
 .section2{
     margin-top: 500px;
     margin-bottom: 500px;
@@ -550,7 +596,7 @@ and (-webkit-min-device-pixel-ratio : 2) {
     right: -10px;
     top: -310px;
 }
-/*Design & Process*/
+Design & Process
 .size {
     font-size: 100px;    
 }
@@ -564,8 +610,9 @@ and (-webkit-min-device-pixel-ratio : 2) {
     width: 100px;
     top: 50px;
     left: 68px;   
-}*/
+}
 .desactived{
     display: none;  
 }
 }
+*/
