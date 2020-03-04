@@ -137,6 +137,8 @@
 
 
 @media(max-width: 768px) {
+
+/*------Branding-------*/
     .space {
         width: 100%;
         height: 100px;
@@ -146,22 +148,76 @@
     }
     .branding {
         position: relative;
-        width: 450px;
-        height: 300px;
+        width: 350px;
+        height: 200px;
         top: 350px;
-        left: 0;
+        left: 40px;
         z-index: 0 !important;
     }
     .rec-first {
-        background: linear-gradient(65deg, transparent 10%, rgba(196, 4, 255, 0.514),var(--main-black));
+        background: linear-gradient(65deg, transparent 25%, rgba(196, 4, 255, 0.514),var(--main-black));
         height: 145px;
         width: 690px;
         position: absolute;
         top: -62px;
         z-index: -1 !important;
     } 
-/*----second block---*/
+/*----Desktop---*/
 
+.desktop {
+    width: 350px;
+    height: 180px;
+    right: 150px;
+    top: -109%;
+    margin-right: 0;
+    position: relative;
+    display: block;
+}
+.rec-second {
+    background: linear-gradient(65deg, transparent 25%, transparent 25%, #00FA9A);
+    height: 132px;
+    width: 400px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+.letter-left {
+    left: 150px;
+    top: 95px;
+}
+/*----Mobile---*/
+.whitespace {
+    display: none;
+}
+.mobile {
+    display: block;
+    position: relative;
+    top: 65%;
+    left: 135px;
+    width: 255px;
+    height: 370px;
+    z-index: 1 !important;
+
+}
+.rec-third {
+    background: linear-gradient(65deg, transparent 5%, rgb(250, 0, 0), var(--main-black));
+    height: 145px;
+    width: 780px;
+    position: absolute;
+    top: 0px;
+    z-index: -1 !important;
+    display: block;
+}
+.letterbold3 {
+    color: var(--main-red) !important;
+}
+.letter-right {
+    position: relative;
+    display: inline;
+    left: 2px;
+    top: 109px;
+}
 }
 
 /*
