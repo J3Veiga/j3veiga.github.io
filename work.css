@@ -30,6 +30,9 @@
     padding-left: 200px;
     
 }
+.work {
+    height: 500px;
+}
 /* ------- Motion --------*/
 .delay-1 {
     animation-delay: 0.1s;
@@ -107,20 +110,20 @@
 .mobile {
     display: block;
     position: relative;
-    top: -30%;
+    top: -27%;
     left: 255px;
-    width: 385px;
-    height: 565px;
+    width: 345px;
+    height: 505px;
     z-index: -1;
 
 }
 .rec-third {
     background: linear-gradient(45deg, transparent 25%, rgb(250, 0, 0), rgb(250, 0, 0));
     height: 145px;
-    width: 780px;
+    width: 800px;
     position: absolute;
     top: 0px;
-    right: 130px;
+    right: 100px;
     z-index: -1 !important;
     display: block;
 }
@@ -133,10 +136,55 @@
     left: 2px;
     top: 109px;
 }
+/*---Paragraphs---*/
+.left-mb {
+    display: inline-block;
+    top: -195px;
+    left: 600px;
+}
+.right-mb {
+    display: inline-block !important;
+    top: -195px !important;
+    left: 300px !important;
+}
+.center-mb {
+    display: inline-block;
+    top: -195px;
+    left: 0px;
+}
+.letter-mb{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.letter-p{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal !important;
+    color: rgba(165, 165, 165, 0.918);
+}
 
 
 
 @media(max-width: 768px) {
+.desactived{
+    display: none;  
+}
+.work{
+    height: 250px;
+}
+.right-mb{
+    left: 0 !important;
+    top: 150px;
+}
+.medium-mb{
+    display: none;
+}
+.left-mb {
+    left: 0;
+    top: 150px;
+}
+
 
 /*------Branding-------*/
     .space {
@@ -193,8 +241,8 @@
 .mobile {
     display: block;
     position: relative;
-    top: 65%;
-    left: 135px;
+    top: 55%;
+    left: 145px;
     width: 255px;
     height: 370px;
     z-index: 1 !important;
@@ -218,6 +266,8 @@
     left: 2px;
     top: 109px;
 }
+/*---Mobile Paragraphs---*/
+
 }
 
 /*
