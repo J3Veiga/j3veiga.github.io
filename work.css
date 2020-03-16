@@ -145,8 +145,17 @@
 }
 .right-mb {
     display: inline-block !important;
-    top: -195px !important;
-    left: 300px !important;
+    top: -195px;
+    left: 0px;
+}
+.right-mb2 {
+    display: inline-block !important;
+    top: -195px;
+    left: 300px;
+    
+}
+.al {
+    align-self: baseline;
 }
 .center-mb {
     display: inline-block;
@@ -158,12 +167,14 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: -2px;
     line-height: 58px;
+    text-align: center;
     
 }
 .letter-p{
     font-weight: 300;
     line-height: 26px;
     color: grey;
+    text-align: justify;
 }
 .l-right {
     text-align: right;
@@ -175,27 +186,35 @@
 .desactived{
     display: none;  
 }
-.work{
+.work {
     height: 250px;
 }
-.right-mb{
+.right-mb, .right-mb2 {
     left: 0 !important;
-    top: 150px;
-    padding: 58px;
+    top: 0px;
+    padding-bottom: 0px;
 }
-.medium-mb{
+.medium-mb {
     display: none;
 }
 .left-mb {
     left: 0;
-    top: 150px;
-    padding: 58px;
+    top: 500px;
+    padding: 10px;
+
+}
+.pd {
+    margin-bottom: 28px;
+}
+.letter-mb {
+    text-align: left;
 }
 .letter-p {
     font-size: 16px;
     line-height: 36px;
     font-weight: 300 !important;
     margin-top: 0px;
+    text-align: left;
 
 }
 .space {
