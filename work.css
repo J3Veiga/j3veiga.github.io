@@ -229,7 +229,7 @@
 }
 .left-mb {
     left: 0;
-    top: 500px;
+    top: 470px;
     padding: 10px;
 
 }
@@ -343,7 +343,7 @@
     display: block !important;
 }
 .rec-fourth {
-    background: linear-gradient(65deg, transparent 25%, transparent 25%, rgba(255, 135, 87, 0.712));
+    background: linear-gradient(65deg, transparent 25%, var(--main-orange));
     height: 137px;
     width: 410px;
     position: absolute;
@@ -356,7 +356,7 @@
     top: 870px;
 }
 .top-mb {
-    top: 650px;
+    top: 750px;
 }
 
 }
