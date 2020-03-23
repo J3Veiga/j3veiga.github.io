@@ -212,7 +212,7 @@
 
 
 
-@media(max-width: 768px) {
+@media (min-width : 320px) and (max-width: 768px) {
 .desactived{
     display: none;  
 }
@@ -359,7 +359,7 @@
     top: 750px;
 }
 
-}
+}/*
 @media(min-width: 320px) and (max-width: 686px) {
 
     .wrapper {
@@ -372,7 +372,7 @@
     }
 
 
-   /*------Branding-------*/
+
 
    .branding {
     position: relative;
@@ -389,7 +389,7 @@
     right: 5px;
     z-index: -1 !important;
 }  
-/*----Desktop---*/
+
 
 .desktop {
     width: 250px;
@@ -412,7 +412,7 @@
     top: 80px;
 }
 
-/*----Mobile---*/
+
 
 
 .mobile {
@@ -441,7 +441,7 @@
     top: 99px;
 }
 
-/*----Graphic and Visuals---*/
+
 
 .graphic {
     width: 200px;
@@ -467,7 +467,7 @@
 .top-mb {
     top: 750px;
 }
-}
+}*/
 /*
  * ─── NAV ────────────────────────────────────────────────────────────────────────
  
