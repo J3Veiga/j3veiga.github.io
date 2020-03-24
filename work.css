@@ -359,7 +359,90 @@
     top: 750px;
 }
 
-}/*
+}
+@media all and (orientation: landscape) {
+
+    .whitespace {
+        display: none;
+    }
+    .letter-mb {
+        text-align: center !important;
+    }
+    .letter-p {
+        text-align: center !important;
+    }
+    /*------Branding-------*/
+
+    .branding {
+        width: 405px;
+        height: 220px;
+        top: 420px;
+        left: 145px;
+    }
+    .rec-first {
+        height: 145px;
+        width: 750px;
+    }
+
+    /*----Desktop---*/
+
+    .desktop {
+        width: 510px;
+        height: 340px;
+        right: 150px;
+        top: -115%;
+    }
+    .rec-second {
+        height: 137px;
+        width: 570px;
+        top: -5px;
+        left: 2px;
+    }
+    .letter-left {
+        left: 288px;
+
+}
+    /*----Mobile---*/
+
+    .mobile {
+        top: 70%;
+        left: 325px;
+        width: 225px;
+        height: 370px;
+    }
+    .rec-third {
+        height: 145px;
+        width: 495px;
+        right: 0px;       
+    }
+    .letter-right {
+        left: 180px;
+        top: 109px;
+    }
+
+    /*----Graphic and Visuals---*/
+
+    .graphic {
+        width: 342px;
+        height: 236px;
+        left: 240px;
+        top: 463px;
+    }
+    .rec-fourth {
+        height: 137px;
+        width: 580px;
+        top: 769px;
+        left: -100px;
+    }
+    .letter-medium {
+        left: 180px;
+        top: 870px;
+    }
+    .top-mb {
+        top: 750px;
+    }
+}
+/*
 @media(min-width: 320px) and (max-width: 686px) {
 
     .wrapper {
