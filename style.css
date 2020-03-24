@@ -164,7 +164,7 @@ nav #menu li a:hover {
 #resize #menu {
       height: 90px;
       position: absolute;
-      left: 45%;
+      left: 42%;
       transform: translateX(-40%);
       text-align: center;
       display: table-cell;
@@ -254,6 +254,9 @@ nav #menu li a:hover {
       .line {
             white-space: pre-wrap;
             transform: translateY(-50%);
+      }
+      .scroll-down1 {
+            top: 110%;
       }
 }
 
@@ -385,14 +388,24 @@ h6 {
 }
 
 @media(max-width: 768px) {
+
+      .vertical {
+            display: block;
+            border-left: 1px solid #fff;
+            height: 80px;
+            width: 0;
+            left: 50%;
+      }
       .project {
-            width: 90% !important;
+            width: 95% !important;
             margin: 14px auto;
+            display: flex;
       }
       .project1 {
-            background: url(/assets/imagens/work1/FolderInside1.jpg) no-repeat;
+            background: url(/assets/imagens/work1/FolderInside1.jpg) no-repeat 50% 50%;
             background-size: cover;
             left: 0%;
+            display: block;
       }
       .project1::after {
             content: "COOL DESIGNS.";
@@ -407,9 +420,10 @@ h6 {
             bottom: 0;
       }
       .project2 {
-            background: url(/assets/imagens/work2/Quiro.jpg) no-repeat;
+            background: url(/assets/imagens/work2/Quiro.jpg) no-repeat 50% 50%;
             background-size: cover;
             left: 0%;
+            display: block;
       }
       .project2::after {
             content: "FOR YOUR BUSISNESS.";
@@ -424,9 +438,10 @@ h6 {
             bottom: 0;
       }
       .project3 {
-            background: url(/assets/imagens/work3/redlight1.jpg) no-repeat;
+            background: url(/assets/imagens/work3/redlight1.jpg) no-repeat 50% 50%;
             background-size: cover;
             left: 0%;
+            display: block;
       }
       .project3::after {
             content: "STUNNING LANDSCAPES.";
@@ -441,9 +456,10 @@ h6 {
             bottom: 0;
       }
       .project4 {
-            background: url(/assets/imagens/work4/darkblack1.jpg) no-repeat;
+            background: url(/assets/imagens/work4/darkblack1.jpg) no-repeat 50% 50%;
             background-size: cover;
             left: 0%;
+            display: block;
       }
       
       .project4::after {
@@ -454,7 +470,7 @@ h6 {
             color: rgba(255, 135, 87, 0.616);
             display: block !important;
             top: 25%;
-            left: 0%;
+            left: -18px;
             margin-left: 220px;
 
       }
