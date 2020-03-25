@@ -259,6 +259,12 @@ nav #menu li a:hover {
             top: 110%;
       }
 }
+@media(max-width: 768px) and (orientation: landscape) {
+
+      .scroll-down1 {
+            top: 165%;
+      }
+}
 
 /*--------------- scroll down icon animation --------------- */
 .scroll-down {
