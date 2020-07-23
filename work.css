@@ -81,7 +81,7 @@
 
 .desktop {
     width: 550px;
-    height: 350px;
+    height: 380px;
     right: 390px;
     top: -60px;
     margin-right: 0;
@@ -112,7 +112,7 @@
     display: block;
     position: relative;
     top: -27%;
-    left: 255px;
+    left: 275px;
     width: 345px;
     height: 505px;
     z-index: -1;
@@ -277,10 +277,10 @@
 /*----Desktop---*/
 
 .desktop {
-    width: 350px;
-    height: 180px;
+    width: 380px;
+    height: 240px;
     right: 150px;
-    top: -109%;
+    top: -126%;
     margin-right: 0;
     position: relative;
     display: block !important;
