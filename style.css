@@ -57,6 +57,19 @@ html, body {
       opacity: 1;
       transform: scale(12);
   }
+  .cursor.active::after {
+      content: "View";
+      font-family: "Roboto Mono";
+      font-size: 2px;
+      font-weight: bolder;
+      position: relative;
+      color: #0f0f0f;
+      display: block;
+      top: 40%;
+      left: 20%;
+      right: 0;
+      bottom: 0;
+  }
   
   .cursor.active::before {
       opacity: 1;
